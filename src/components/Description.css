@@ -33,7 +33,24 @@
 .image-tag{
     width: 32px;
     height: 16px;
-    margin-top: 20px;
+    margin-top: 22px;
+    margin-left: 15px;
+   
+}
+.image-information4{
+    width:110px;
+    height: 65px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 100%;
+    margin-top: 24px;
+   
+}
+.image-tag4{
+    width: 32px;
+    height: 16px;
+    margin-top: 24px;
+    margin-left: 15px;
+   
 }
 .heading-info{
     font-size: 16px;
@@ -43,6 +60,7 @@
    color: #000000;
    margin-left: 20px;
    margin-top: 20px;
+   overflow-y: hidden;
 }
 .para-info{
     color: #4D4D4D;
@@ -60,5 +78,10 @@
     .head-tag{
         width: 100%;
         font-size:16px ;
+    }
+    .flex-container{
+        display: flex;
+        gap: 5px ; 
+         
     }
 }
