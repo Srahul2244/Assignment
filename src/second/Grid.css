@@ -46,7 +46,7 @@
 }
 .h{
     background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
-border-radius: 20px;
+    border-radius: 20px;
 }
 .dob-info{
     font-size: 16px;
@@ -67,10 +67,10 @@ margin-left: 48px;
 }
 .grid-second{
     display: grid;
-    grid-template-columns: repeat(3,100px);
+    grid-template-columns: repeat(3,90px);
     grid-template-rows: repeat(2,60px);
-    gap: 10px;
-    padding-left: 40px;
+    /* gap: 10px; */
+    padding-left: 30px;
 }
 .chota-box{
     width: 80px;
@@ -139,8 +139,8 @@ padding: 30px;
     width: 80px;
     border: 1px solid rgb(226, 223, 223);
     border-radius: 30px;
-    padding: 10px;
-    margin-left: 15px;
+    padding: 5px;
+    margin-left: 2px;
     margin-top: 14px;
    
 }
