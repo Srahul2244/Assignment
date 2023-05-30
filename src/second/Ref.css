@@ -1,15 +1,21 @@
 .card-box{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 80%;
     margin: auto;
+    gap: 10px;
     justify-content: space-between;
+}
+.card-box-1
+{
+    width: 100%;
 }
 .head-info{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #800080;
+    width: 100%;
 }
 .discount-info{
     font-size: 16px;
@@ -27,10 +33,31 @@
     justify-content: center;
 }
 .balance-info{
-  width: 145px;
+  width: 165px;
   height: 85px;
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
   border-radius: 20px;
  padding-top: 20px;
+ padding: 12px;
+}
+
+
+@media (min-width: 375px) and (max-width: 600px) {
+ .balance-info{
+    width: 240px;
+    padding: 5px;
+    height: 84px;
+    padding-top: 15px;
+ }
+ .discount-info{
+    letter-spacing: 5px;
+    width: 124px;
+ }
+ .head-info{
+    width: 100%;
+ }
+ .card-box{
+    gap: 5px;
+ }
 }
