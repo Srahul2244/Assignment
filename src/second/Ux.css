@@ -1,0 +1,45 @@
+.ux{
+    width:80%;
+    height: 76px;
+    margin: auto;
+    background-color:#FFFFFF;
+
+}
+.refers{
+  text-align: start;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+ margin-top:14px;
+ font-weight: 400px;
+}
+
+.bracket{
+    color: #800080;
+}
+.back-info{
+    font-size: 12px;
+    font-weight: 500;
+    color: #800080;
+    line-height: 24px;
+    margin-top: 21px;
+    display: none;
+}
+
+
+   @media (min-width: 375px) and (max-width: 600px) {
+
+    .refers{
+        margin-left: -0px;
+       }
+       .ux{
+         margin-top: 51px;
+       }
+       .back-info{
+        display: block;
+        margin-top: 21px;
+        text-align: start;
+        font-size: 10px;
+
+       }
+   }

@@ -1,0 +1,152 @@
+.gridclass{
+    margin-top: 70px;
+    
+}
+
+
+
+.grid-conta{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.frinds-info{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #800080;
+  text-align: start;
+  
+}
+.third{
+  color: #626262;
+}
+.info-heading{
+    width: 80%;
+    margin: auto;
+   
+}
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.headings{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.h{
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+border-radius: 20px;
+}
+.dob-info{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.courses{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+margin-top: 10px;
+text-align: start;
+margin-left: 48px;
+}
+.grid-second{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,60px);
+    gap: 10px;
+    padding-left: 40px;
+}
+.chota-box{
+    width: 80px;
+    height:35px;
+    /* border: 1px solid rgb(226, 223, 223); */
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 14px;
+    border-radius: 20px;
+    border: 1.5px solid #EEAEAE;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.chota-box>h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 5px;
+
+
+
+}
+.refral-info{
+    width: 80%;
+    margin: auto;
+
+}
+.refral-infom{
+    margin-top: 33px;
+}
+.refral-infom>h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+text-align: start;
+padding: 30px;
+
+}
+
+.rupess{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+    .grid-conta{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+
+}
+.chota-box{
+    height: 35px;
+    width: 80px;
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 14px;
+   
+}
+.chota-box>h1{
+padding: 0px;
+
+
+}
+}
