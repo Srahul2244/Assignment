@@ -37,6 +37,7 @@
 }
 .btn-box{
   margin-top: 38px;
+  text-align: center;
 }
 
 @media (min-width: 375px) and (max-width: 600px) {
